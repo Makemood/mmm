@@ -1,0 +1,4 @@
+# Двойной щелчок в Windows читает .bat только с переводами строк CRLF.
+*.bat text eol=crlf
+# Скрипт macOS — обычные переводы строк Unix, иначе Terminal ругается.
+*.command text eol=lf
