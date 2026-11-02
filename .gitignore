@@ -1,0 +1,12 @@
+# Место Roblox, если соберёшь его через `rojo build`
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Служебное Rojo
+sourcemap.json
+
+# Система
+.DS_Store
+Thumbs.db

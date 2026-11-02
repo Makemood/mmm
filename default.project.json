@@ -1,0 +1,95 @@
+{
+  "name": "Adrenalin",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    },
+
+    "StarterGui": {
+      "$path": "src/StarterGui"
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0.18, 0.16, 0.3],
+        "Brightness": 1.15,
+        "ClockTime": 0.15,
+        "ColorShift_Bottom": [0, 0, 0],
+        "ColorShift_Top": [0.35, 0.2, 0.55],
+        "EnvironmentDiffuseScale": 0.35,
+        "EnvironmentSpecularScale": 0.85,
+        "ExposureCompensation": -0.15,
+        "FogColor": [0.11, 0.07, 0.19],
+        "FogEnd": 520,
+        "FogStart": 90,
+        "GeographicLatitude": 20,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [0.22, 0.19, 0.36],
+        "ShadowSoftness": 0.35,
+        "Technology": "Future"
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Color": [0.27, 0.2, 0.43],
+          "Decay": [0.16, 0.08, 0.24],
+          "Density": 0.38,
+          "Glare": 0.15,
+          "Haze": 2.2,
+          "Offset": 0.15
+        }
+      },
+      "CityBloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0.5,
+          "Size": 26,
+          "Threshold": 0.9
+        }
+      },
+      "CityColor": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": {
+          "Brightness": -0.02,
+          "Contrast": 0.12,
+          "Saturation": 0.15,
+          "TintColor": [0.9, 0.86, 1]
+        }
+      },
+      "CitySunRays": {
+        "$className": "SunRaysEffect",
+        "$properties": {
+          "Intensity": 0.04,
+          "Spread": 0.8
+        }
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    }
+  }
+}
