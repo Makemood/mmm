@@ -1,0 +1,6 @@
+# Одна команда в папке проекта: rokit install
+# Ставит Rojo 7, ту же версию, что в aftman.toml.
+# https://github.com/rojo-rbx/rokit
+
+[tools]
+rojo = "rojo-rbx/rojo@7.7.1"
